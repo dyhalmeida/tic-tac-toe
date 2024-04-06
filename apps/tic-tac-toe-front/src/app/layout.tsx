@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={outfit.className}>
-        <div className="flex justify-center items-center h-screen">
+        <div className="flex justify-center items-center h-screen bg-zinc-900">
           <GameProvider>{children}</GameProvider>
         </div>
       </body>
