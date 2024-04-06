@@ -7,7 +7,7 @@ export interface CellAreaProps {
   selected?: boolean;
 }
 
-export default function CellArea({ selected, type }: CellAreaProps) {
+export function CellArea({ selected, type }: CellAreaProps) {
   return (
     <Card
       color={
