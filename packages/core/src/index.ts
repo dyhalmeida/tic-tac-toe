@@ -6,3 +6,4 @@ export { Board } from "./board";
 export { GameResult } from "./game-result";
 export { CellsChecker } from "./cells-checker";
 export { HorizontalChecker } from "./horizontal-checker";
+export { VerticalChecker } from "./vertical-checker";
