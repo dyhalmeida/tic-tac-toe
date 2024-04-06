@@ -8,3 +8,4 @@ export { CellsChecker } from "./cells-checker";
 export { HorizontalChecker } from "./horizontal-checker";
 export { VerticalChecker } from "./vertical-checker";
 export { DiagonalChecker } from "./diagonal-checker";
+export { TieChecker } from "./tie-checker";
