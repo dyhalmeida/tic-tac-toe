@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
+import { GameProvider } from "@/context/GameContext";
 import "./globals.css";
 
 const outfit = Outfit({ subsets: ["latin"] });
@@ -18,7 +19,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={outfit.className}>
         <div className="flex justify-center items-center h-screen">
-          {children}
+          <GameProvider>{children}</GameProvider>
         </div>
       </body>
     </html>
